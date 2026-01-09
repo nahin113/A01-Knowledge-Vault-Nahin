@@ -64,19 +64,37 @@
 }
 
 #banner .banner-container .banner-header .banner-header-tag {
+    /* width: 229px;
     color: #30b869;
     background-color: #FFFFFF;
     border-radius: 1000px;
-    padding: 8px 12px;
+    padding: 0 12px;
     display: flex;
-    justify-content: space-evenly;
-    max-width: 229px;
+    align-items: center;
+    border: none;
+    margin: 0 auto;  */
+    height: 35px;
+    width: 229px;
+    display: flex;
     margin: 0 auto;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    gap: 6px;
+    padding: 8px 12px;
+} 
+  
+#banner .banner-container .banner-header .banner-header-tag img {
+    height: 16px;
+    width: 16px;
 }
 
 #banner .banner-container .banner-header .banner-header-tag a {
     text-decoration: none;
-    color: #30b869
+    color: #30b868;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
 }
 
 #banner .banner-container .banner-header .heading-1 {
@@ -117,9 +135,7 @@
 
 #banner .banner-container .banner-footer .btn1 .btn {
     padding: 16px;
-    display: inline-flex;
-    align-items: center;         
-    justify-content: center;     
+    display: flex;   
     gap: 10px;                
 }
 
@@ -129,9 +145,7 @@
     border: 1px solid rgba(255, 255, 255, 1);
     color: #FFFFFF;
     background: transparent;
-    display: inline-flex;
-    align-items: center;         
-    justify-content: center;     
+    display: flex;     
     gap: 10px; 
 }
 
@@ -267,5 +281,60 @@
     line-height: 20px;
     text-align: left;
 }
+
+#early-access {
+    height: 506px;
+    background-color: #FFFFFF;
+}
+
+#early-access .early-access-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    padding-top: 80px;
+    height: 384px;
+}
+
+#early-access .early-access-container .ea-container-info {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#early-access .early-access-container .ea-container-info .eac-header {
+    font-size: 40px;
+    font-weight: 700;   
+    line-height: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+
+#early-access .early-access-container .ea-container-info .eac-info {
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+#early-access .early-access-container .ea-container-info .btn {
+    display: flex;
+    gap: 10px;
+    padding: 16px;
+    background-color: #30b869;
+    margin: 0 auto;
+}
+
+#early-access .early-access-container .ea-container-info .eac-text {
+    margin-top: 16px;
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
 
 
